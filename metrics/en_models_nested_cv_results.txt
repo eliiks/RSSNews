@@ -1,0 +1,152 @@
+---- Début évaluation double cross validate imbriqué des modèles en ----
+--- KNN best params:
+Meilleur modèle KNN itération 0:
+Paramètres:
+n_neighbors = 3
+Score: 0.8459833072509128
+
+Meilleur modèle KNN itération 1:
+Paramètres:
+n_neighbors = 30
+Score: 0.8460485133020345
+
+Meilleur modèle KNN itération 2:
+Paramètres:
+n_neighbors = 5
+Score: 0.8551773604590506
+
+Meilleur modèle KNN itération 3:
+Paramètres:
+n_neighbors = 30
+Score: 0.851134585289515
+
+Meilleur modèle KNN itération 4:
+Paramètres:
+n_neighbors = 5
+Score: 0.851395409494001
+---------------------- 
+--- Log. Regression best params:
+Meilleur modèle Log. Reg. itération 0:
+Paramètres:
+logisticregression__C = 1.0
+logisticregression__max_iter = 500
+Score: 0.8552425665101722
+
+Meilleur modèle Log. Reg. itération 1:
+Paramètres:
+logisticregression__C = 1.0
+logisticregression__max_iter = 500
+Score: 0.8879760041731872
+
+Meilleur modèle Log. Reg. itération 2:
+Paramètres:
+logisticregression__C = 1.0
+logisticregression__max_iter = 500
+Score: 0.8459833072509128
+
+Meilleur modèle Log. Reg. itération 3:
+Paramètres:
+logisticregression__C = 1.0
+logisticregression__max_iter = 500
+Score: 0.8695878977569119
+
+Meilleur modèle Log. Reg. itération 4:
+Paramètres:
+logisticregression__C = 0.1
+logisticregression__max_iter = 500
+Score: 0.8465049556598853
+----------------------
+--- Gaussian NB best params:
+Meilleur modèle Gaussian NB itération 0:
+Paramètres:
+Score: 0.7808424621804905
+
+Meilleur modèle Gaussian NB itération 1:
+Paramètres:
+Score: 0.7990349504434011
+
+Meilleur modèle Gaussian NB itération 2:
+Paramètres:
+Score: 0.8035993740219092
+
+Meilleur modèle Gaussian NB itération 3:
+Paramètres:
+Score: 0.7998174230568597
+
+Meilleur modèle Gaussian NB itération 4:
+Paramètres:
+Score: 0.7721048513302033
+----------------------
+--- Linear SVC best params:
+Meilleur modèle Linear SVC itération 0:
+Paramètres:
+linearsvc__dual = auto
+linearsvc__loss = hinge
+linearsvc__max_iter = 1500
+Score: 0.8879760041731873
+
+Meilleur modèle Linear SVC itération 1:
+Paramètres:
+linearsvc__dual = auto
+linearsvc__loss = hinge
+linearsvc__max_iter = 1500
+Score: 0.9021257172665623
+
+Meilleur modèle Linear SVC itération 2:
+Paramètres:
+linearsvc__dual = auto
+linearsvc__loss = hinge
+linearsvc__max_iter = 1500
+Score: 0.8786515388628064
+
+Meilleur modèle Linear SVC itération 3:
+Paramètres:
+linearsvc__dual = auto
+linearsvc__loss = hinge
+linearsvc__max_iter = 1500
+Score: 0.8882368283776735
+
+Meilleur modèle Linear SVC itération 4:
+Paramètres:
+linearsvc__dual = auto
+linearsvc__loss = hinge
+linearsvc__max_iter = 1500
+Score: 0.8651538862806468
+----------------------
+--- Random Forest best params:
+Meilleur modèle Random Forest itération 0:
+Paramètres:
+max_depth = None
+min_samples_leaf = 1
+n_estimators = 150
+Score: 0.8554381846635368
+
+Meilleur modèle Random Forest itération 1:
+Paramètres:
+max_depth = None
+min_samples_leaf = 1
+n_estimators = 300
+Score: 0.864567031820553
+
+Meilleur modèle Random Forest itération 2:
+Paramètres:
+max_depth = 50
+min_samples_leaf = 1
+n_estimators = 200
+Score: 0.8600026082420449
+
+Meilleur modèle Random Forest itération 3:
+Paramètres:
+max_depth = 100
+min_samples_leaf = 1
+n_estimators = 200
+Score: 0.8974308815858111
+
+Meilleur modèle Random Forest itération 4:
+Paramètres:
+max_depth = 100
+min_samples_leaf = 1
+n_estimators = 300
+Score: 0.8420709441836203
+----------------------
+---- Fin évaluation double cross validate imbriqué en en ----

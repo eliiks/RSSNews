@@ -1,0 +1,37 @@
+Taille ensemble de données d'entrainement = 212
+Taille ensemble de données de test = 53
+
+Métriques numériques de KNN DEBUT ----
+Score accuracy de KNN = 0.8113207547169812
+Score précision de KNN = 0.7918470418470417
+Score recall de KNN = 0.7791666666666667
+Score F1 de KNN = 0.7727161727161728
+Métriques numériques de KNN FIN  ----
+
+Métriques numériques de log_regression DEBUT ----
+Score accuracy de log_regression = 0.8113207547169812
+Score précision de log_regression = 0.8582125603864733
+Score recall de log_regression = 0.7833333333333332
+Score F1 de log_regression = 0.7989055659787367
+Métriques numériques de log_regression FIN  ----
+
+Métriques numériques de GNB DEBUT ----
+Score accuracy de GNB = 0.7924528301886793
+Score précision de GNB = 0.7324317738791423
+Score recall de GNB = 0.7738095238095238
+Score F1 de GNB = 0.7417457049809991
+Métriques numériques de GNB FIN  ----
+
+Métriques numériques de SVC DEBUT ----
+Score accuracy de SVC = 0.8490566037735849
+Score précision de SVC = 0.86020955165692
+Score recall de SVC = 0.830952380952381
+Score F1 de SVC = 0.834681472916767
+Métriques numériques de SVC FIN  ----
+
+Métriques numériques de random_forest DEBUT ----
+Score accuracy de random_forest = 0.8301886792452831
+Score précision de random_forest = 0.8558201058201057
+Score recall de random_forest = 0.807142857142857
+Score F1 de random_forest = 0.8200875148243569
+Métriques numériques de random_forest FIN  ----
