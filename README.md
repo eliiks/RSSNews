@@ -12,7 +12,7 @@ Ces items sont des articles de presse appartenant aux catégories suivantes : ar
 
 ## Installation
 La librairie [textract](https://github.com/deanmalmgren/textract) nécessite que le logiciel "pip" possède une version inférieure à 24.1.
-Si ce n'est pas le cas, notez la version de "pip" actuelle et lancez cette commande : `python -m pip install --upgrade pip<24.1`
+Si ce n'est pas le cas, notez la version actuelle de "pip" et lancez cette commande : `python -m pip install --upgrade pip<24.1`
 \
 \
 Votre logiciel pip est désormais avec une version inférieure à 24.1., vous pouvez installer les paquets nécessaires au fonctionnement de **RSSNews** avec la commande suivante : `python install.py`
@@ -24,7 +24,7 @@ Pour l'accès à votre propre serveur ElasticSearch, le programme d'installation
 + "index_name" : le nom de l'index dans lequel seront stockés les données
 
 **RSSNews** est prêt à être lancé !\
-N'oubliez pas de remettre à jour votre logiciel pip si besoin après le lancement du programme d'installation : `python -m pip install --upgrade pip[==VERSION_SOUHAITEE]`
+N'oubliez pas de remettre à jour votre logiciel pip si besoin après la réussite de l'installation : `python -m pip install --upgrade pip[==VERSION_SOUHAITEE]`
 
 ## Exécution
 Pour exécuter le programme, placez-vous tout d'abord dans le répertoire src avec un terminal.
@@ -61,9 +61,9 @@ L'arborescence des choix est la suivante:
 	
 	3.6 : **Retour au menu principal**
 
-5. Afficher les statistiques de la base de données
+5. **Afficher les statistiques de la base de données**
 
-6. Quitter l'application
+6. **Quitter l'application**
 
 ## Détails techniques
 ### Collecte d'items RSS
